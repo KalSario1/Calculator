@@ -1,7 +1,11 @@
+html {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    box-shadow: 0px 0px 20px 5px rgb(202, 201, 201);
 }
 
 #display {
@@ -35,4 +39,14 @@
 #equal {
     background-color: #5555ff;
     color: white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+#equal:hover {
+    background-color: rgb(1, 40, 124);
+    transition: 0.5s ease-in-out;
 }
